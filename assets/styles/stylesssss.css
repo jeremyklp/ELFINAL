@@ -1,0 +1,584 @@
+body{ background-color: rgb(0, 0, 17);
+font-family: nunito, sans-serif ;
+font-size: 2.5vh;
+}
+nav{z-index: 9;
+    display: flex;
+    background-color: rgb(0, 0, 17);
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    flex-direction: row-reverse;
+    padding-bottom: 1rem;
+}
+nav > ul > li{
+    
+    display: inline-block;
+    
+    font-size: 1.8vh;
+   
+}
+nav > ul > li > a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+    padding: 1rem;
+    border-bottom: 4px solid transparent;
+}
+nav > ul > li > a:hover{
+    
+    border-color: aqua;
+    transition: all .5s linear;
+
+}
+.home{font-weight: bold;
+    color: rgb(52, 176, 190);
+}
+.encabezado{
+    display: flex;
+    justify-content:space-around; 
+    padding-top: 10vh;
+    padding-bottom: 2.5vh;
+}
+.R{
+    color: aliceblue;
+    font-size: 2.5vh;
+}
+.fo{padding: 1.5vh;
+    border-radius: 4vh;
+    background-color:rgba(245, 245, 245, 0.774) ;
+}
+.encabezado > div {
+    z-index: 2;
+    padding: 1.5vh;
+}
+.foto{
+    z-index: 2;
+    padding: 3rem;
+    border-radius: 30vh;
+    background-color: rgba(250, 235, 215, 0.096);
+    width: 50vh;
+    
+}
+.atras{
+    position: absolute;
+    align-items: center;
+    z-index: 1;
+}
+.blanco{color: azure;
+    font-size: 4.5vh;
+    font-family: 'Times New Roman', Times, serif;
+ }
+.soy {color: azure;
+    font-size: 10vh;
+    border-bottom:5px solid white ;
+ }
+.F{
+    color: rgb(52, 176, 190);
+    font-size: 7vh;
+    font-family: serif;}
+
+.derecha{
+    display: inline-block;
+    margin-left: 30vh;
+    width: 40vh;
+    
+}
+.derecha>a>img{width: 5vh;}
+.ñp{display: inline-block;
+    margin-left: 10vh;
+    width: 40vh;
+    z-index: 5;
+}
+
+.medio{
+    margin-top: 3vh;
+    z-index: 3;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 2vh;
+    background-color: rgba(140, 141, 141, 0.219);
+
+
+
+}
+.medio>a>img{
+    height: 16vh;
+    background-color: rgba(252, 252, 252, 0.705);
+    padding: 10px;
+    margin: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 1.5vh;
+}
+h3{ padding-top: 10vh;
+    display: flex;
+    justify-content:center;
+    color: rgb(52, 176, 190);
+    font-size: 4vh;
+}
+.textocentro{
+    justify-content: center;
+    padding-left: 20vh;
+    padding-right: 20vh;
+    color: aliceblue;
+}
+.talentos{
+display: flex;
+justify-content: space-around;
+
+}
+.img1{
+    background-image: url(Ellipse\ 14.svg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    
+    background-color: rgb(255, 255, 255);
+    width: 30vh;
+    height: 35vh;
+    border-radius: 5px;
+    text-align: center;
+}
+.centrado{
+    display: inline-block;
+    flex-direction: column;
+    text-align: center;
+}
+.tal{
+    width: 15vh;
+}
+.negrita{
+    
+    font-weight: bold;
+}
+.op{
+    display: flex;
+    justify-content: left;
+    overflow-x: auto
+}
+.os{
+    margin: 3vh;
+    height: 50vh;
+}
+::-webkit-scrollbar{
+    width: 1rem;
+    height: 2rem;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(transparent, rgb(32, 138, 180));
+}
+::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(transparent, aqua)
+}
+.kkk{display: flex;
+    justify-content: center;
+}
+.ggg{background-color: rgb(180, 184, 184);
+    width: 100vh;
+    height: 20px;
+    border-radius: 10px;
+}
+.mediii{
+    background-color: rgb(52, 176, 190);
+    width: 80vh;
+    height: 20px;
+   border-radius: 10px;
+}
+.mediiii{
+    background-color: rgb(52, 176, 190);
+    width: 93vh;
+    height: 20px;
+   border-radius: 10px;
+}
+.arribita{
+    font-size: 2vh;
+    font-weight: bolder;
+    margin-top: 3rem;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+
+}
+.arribita>div{
+    width: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+.arribita>div>span{color: aliceblue;}
+#azul{
+    color: rgb(52, 176, 190);
+}
+.talentos2{
+    display: flex;
+    justify-content: space-around;}
+.img2{
+    background-image: url(Ellipse\ 14.svg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    
+    background-color: rgb(255, 255, 255);
+    width: 28vh;
+    height: 30vh;
+    border-radius: 5px;
+    text-align: center;
+}
+.centradoñ{
+    display: inline-block;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.tall{
+    width: 15vh;
+}
+.ba{color: rgba(0, 0, 0, 0.315);}
+.pe{font-size: 1.9vh;}
+footer>div{
+    margin-top: 5vh;
+    background-color:rgba(140, 141, 141, 0.219140);
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+h4{
+    color:rgb(52, 176, 190) ;
+}
+.negrita{
+    color: black;
+    font-weight: bold;}
+
+    @media screen and (min-width: 600px){
+    .hidden{
+        display: none;
+    }}
+@media screen and (max-width: 600px){
+    .hidden2{
+        display: none;
+    }
+
+
+
+
+    .icono-menu{
+        margin: 4px 5px;
+        position: relative;
+        z-index: 10;
+    }
+    
+    .icono-menu img{
+       
+        vertical-align: top;
+        width: 40px;
+        cursor: pointer;
+        background-color: aqua;
+        border-radius: 20px;
+        
+    }
+    
+    /* Estilos para el contenedor del Menú */
+    .cont-menu{
+        background-color: rgb(0, 0, 17);
+        box-shadow: 2px 0px 5px 2px rgb(66,66,66);
+        width: 400px;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: all .5s ease;
+    }
+    
+    /* Estilos por agregar en JavaScript */
+    .active{
+        transform: translate(-600px);
+    }
+    
+    /* Estilos para el listado del Menú */
+    .cont-menu ul{
+        padding: 100px 0px 20px 0px;
+        list-style: none;
+    }
+    
+    .cont-menu ul li a{
+        color: white;
+        display: block;
+        font-size: 25px;
+        text-decoration: none;
+        padding: 10px 50px;
+        cursor: pointer;
+    }
+    
+    .cont-menu ul li a:hover{
+        background-color: rgb(52, 176, 190);
+        color: rgb(0, 0, 0);
+    }
+    nav{z-index: 9;
+        display: flex;
+        background-color: rgb(0, 0, 17);
+        overflow: hidden;
+        position: fixed;
+        width: 100%;
+        left: 0;
+        right: 0;
+        top: 0;
+        flex-direction: row-reverse;
+        padding-bottom: 1rem;
+    }
+        
+
+
+
+
+
+
+
+
+
+
+    .textocentro{
+        justify-content: center;
+        padding-left: 3vh;
+        padding-right: 3vh;
+        color: aliceblue;
+    }
+    .medio{
+        margin-top: .5vh;
+        z-index: 3;
+        display: flex;
+        justify-content: space-around;
+        border-radius: 2vh;
+        background-color: rgba(140, 141, 141, 0.219);
+    
+    
+    
+    }
+    .medio>a>img{ 
+        height: 12vh;
+        background-color: rgba(252, 252, 252, 0.705);
+        padding: 10px;
+        margin: 10px;
+        padding-left: 3vh;
+        padding-right: 3vh;
+        border-radius: 1.5vh;
+    }
+    .img1{
+        background-image: url(Ellipse\ 14.svg);
+        background-repeat: no-repeat;
+        background-size:contain;
+        
+        background-color: rgb(255, 255, 255);
+        width: 80vh;
+        height: 35vh;
+        border-radius: 5px;
+        
+        margin: 5vh;
+    }
+    .centrado{
+        display: inline-block;
+        flex-direction: column;
+        text-align: center;
+    }
+    .tal{
+        width: 15vh;
+    }
+    .negrita{
+        
+        font-weight: bold;
+    }
+    .talentos{
+    width: 900px;
+    display: flex;
+    justify-content: left;
+    
+    }
+    .mmm{
+        overflow-x: auto;
+    }
+    .op{
+        display: flex;
+        justify-content: left;
+        overflow-x: auto
+    }
+    .os{
+        margin: 3vh;
+        height: 30vh;
+    }
+    .kkk{display: flex;
+        justify-content: center;
+    }
+    .ggg{background-color: rgb(180, 184, 184);
+        width: 100vh;
+        height: 20px;
+        border-radius: 10px;
+    }
+    .mediii{
+        background-color: rgb(52, 176, 190);
+        width: 75vh;
+        height: 20px;
+       border-radius: 10px;
+    }
+    .mediiii{
+        background-color: rgb(52, 176, 190);
+        width: 80vh;
+        height: 20px;
+       border-radius: 10px;
+    }
+    .arribita{
+        font-size: 2vh;
+        font-weight: bolder;
+        margin-top: 3rem;
+        color: aliceblue;
+        display: flex;
+        justify-content: center;
+    
+    }
+    .arribita>div{
+        width: 100vh;
+        display: flex;
+        justify-content: space-between;
+    }
+    .arribita>div>span{color: aliceblue;}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .encabezado{
+        display: flex;
+        justify-content:space-between; 
+        padding-top: 10vh;
+        padding-bottom: 2.5vh;
+    }
+    
+    
+    .fo{padding: 1.5vh;
+        border-radius: 4vh;
+        background-color:rgba(245, 245, 245, 0.774) ;
+    }
+    .encabezado > div {
+        z-index: 2;
+        padding: 1.5vh;
+    }
+    .foto{
+        margin-left: 10vh;
+        z-index: 2;
+        padding: 3rem;
+        border-radius: 30vh;
+        background-color: rgba(250, 235, 215, 0.096);
+        width: 40vh;
+        
+    }
+    .atras{
+        position: absolute;
+        align-items: center;
+        z-index: 1;
+        
+    }
+    
+    .blanco{color: azure;
+        font-size: 3vh;
+        font-family: 'Times New Roman', Times, serif;
+     }
+    .soy {color: azure;
+        font-size: 10vh;
+        border-bottom:5px solid white ;
+     }
+    .F{
+        color: rgb(52, 176, 190);
+        font-size: 7vh;
+        font-family: serif;}
+    
+    .derecha{
+        
+        display: inline-block;
+      
+        width: 40vh;
+        margin-left: 10vh;
+    }
+    .ñp{margin-left: 0;
+        display: inline-block;
+        margin-right: 20vh;
+        width: 40vh;
+       
+    }
+    .derecha>a>img{width: 5vh;}
+    .R{
+        color: aliceblue;
+        font-size: 2.5vh;
+    }
+    .icono-menu{
+    margin: 4px 5px;
+    position: relative;
+    z-index: 10;
+}
+
+.icono-menu img{
+   padding: 10px;
+    vertical-align: top;
+    width: 30px;
+    cursor: pointer;
+    background-color: rgb(52, 176, 190);
+    border-radius: 20px;
+    
+}
+
+/* Estilos para el contenedor del Menú */
+.cont-menu{
+    background-color: rgb(0, 0, 17);
+    box-shadow: 2px 0px 5px 2px rgb(66,66,66);
+    width: 400px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .5s ease;
+    z-index: 6;
+}
+
+/* Estilos por agregar en JavaScript */
+.active{
+    transform: translate(-600px);
+}
+
+/* Estilos para el listado del Menú */
+.cont-menu ul{
+    padding: 100px 0px 20px 0px;
+    list-style: none;
+}
+
+.cont-menu ul li a{
+    color: white;
+    display: block;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px 50px;
+    cursor: pointer;
+}
+
+.cont-menu ul li a:hover{
+    background-color: rgb(52, 176, 190);
+    color: rgb(0, 0, 0);
+}
+nav{z-index: 9;
+    display: flex;
+    background-color: rgb(0, 0, 17);
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    flex-direction: row-reverse;
+    padding-bottom: 1rem;
+    z-index: 19;
+}
+}   
